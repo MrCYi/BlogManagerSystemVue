@@ -10,7 +10,10 @@
     "prettier": "prettier --write ."
   },
   "dependencies": {
+    "ant-design-vue": "^3.2.15",
     "core-js": "^3.8.3",
+    "normalize.css": "^8.0.1",
+    "pinia": "^2.0.23",
     "vue": "^3.2.13",
     "vue-router": "^4.0.3"
   },
