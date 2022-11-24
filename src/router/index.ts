@@ -17,6 +17,31 @@ const routes: Array<RouteRecordRaw> = [
         path: '/dashboard',
         name: 'DashBoard',
         component: DashBoard
+      },
+      {
+        path: '/users',
+        name: 'Users',
+        component: () => import('@/views/home/users/Users.vue')
+      },
+      {
+        path: '/permission/role',
+        name: 'Role',
+        component: () => import('@/views/home/permission/Role.vue')
+      },
+      {
+        path: '/permission/menu',
+        name: 'Menu',
+        component: () => import('@/views/home/permission/Menu.vue')
+      },
+      {
+        path: '/account/home',
+        name: 'AccountHome',
+        component: () => import('@/views/home/account/AccountHome.vue')
+      },
+      {
+        path: '/account/setting',
+        name: 'AccountSetting',
+        component: () => import('@/views/home/account/AccountSetting.vue')
       }
     ]
   }

@@ -13,9 +13,9 @@ import { createPinia } from 'pinia'
 import register from '@/register'
 
 const app = createApp(App)
-const pinia = createPinia()
+const store = createPinia()
 
 app.use(router)
-app.use(pinia)
+app.use(store)
 app.use(register)
 app.mount('#app')
